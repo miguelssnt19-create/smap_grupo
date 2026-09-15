@@ -1,4 +1,44 @@
-.App {
-  text-align: center;
+
+.barra{
+  background-color: darkgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+
+
 }
 
+.inicio{
+  background-color: linear-gradient(to right, black, none);
+  display: flex;
+  align-items: center;
+
+
+  .vermelho{
+      background-color: red;
+      color: aliceblue;
+      width: 200px;
+      text-align: center;
+      border-radius: 20px;
+      padding: 1px;
+  }
+
+  .preto{
+      background-color: black;
+      color: aliceblue;
+      width: 200px;
+      text-align: center;
+      border-radius: 20px;
+      padding: 1px;
+  }
+
+}
